@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="style.css">
+        <title>Ecommerce</title>
+    </head>
+    <body>
+        
+<header>
+
+    
+    <div class="nav-btns">
+        <i class='bx bx-moon' ></i>
+            <div class="cart">
+                <i class='bx bx-shopping-bag' id="shopping-cart-icon"></i>
+                <span class="cart-count" id="cart-count">0</span>
+            </div>
+            <i class="bx bx-grid-alt"></i>
+        </div>
+
+
+
+        <div class="shopping-cart-overlay">
+            <div class="selected-products-list">
+                <i class="bx bx-x bx-md cart-close" id="cart-close"></i>
+                <div class="cart-list">
+                    <div class="empty-state">
+                        <img src="./assets/images/empty-cart.png" alt="">
+                        <h5>Aun no has agregado ningun producto a tu carrito</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+    </header>
+        
+        <aside class="imgPpal"> 
+            <div class="boxPpal">
+                <img src="./assets/images/home.png" alt=""  > 
+            </div>
+        </aside>
+<br>
+
+<div class="title">
+    <h2>New Sweatshirt COLLECTIONS 2022 </h2>
+</div>
+        
+
+
+<div class="parrafo1">
+    <span>Lastest arrival of the new Hanes Midweight 
+        Crewneck sweatshirt imported from 2022 series,
+        with a modern design.
+    </span>
+</div>
+
+<div class="price">
+    <span class="priceText">$14.00</span>
+</div>
+
+<br>
+
+<div class="botones">
+    <div class="discoverBox">
+        <span class="discoverText"> Discover</span>
+    </div>
+    
+    
+    <div class="addCart">
+        <span class="addCartText"> ADD TO CART</span>
+    </div>
+</div>
+
+
+<div class="productos">
+    <div>
+        <button class="filter">
+             <h4>
+            Show All 
+            </h4>
+                <p>show all products</p>
+        </button>
+            
+    </div>
+    
+    <div>
+        <button class="filter"> 
+           <h4>
+               Sweatshirts 
+            </h4> 
+                <p>
+                4 products
+                </p>   
+        </button>
+    </div>
+
+    <div>
+        <button class="filter"> 
+           <h4>
+               Shirts
+           </h4>
+           <p>
+            4 products
+           </p>
+            </button>
+    </div>
+
+    <div>
+        <button class="filter"> 
+            <h4>
+                Hoodies 
+            </h4> 
+            <p>
+            3 products
+            </p> 
+        </button>
+    </div>
+       
+</div>
+
+
+<!-- 
+    
+    <section class="div-de-productos" id="products">
+        <div class="products__container container">
+            <ul class="products__filters">
+                <li class="products_item products_line" data-filter="all">
+                    <h3 class="products__title">
+                        Show All
+                    </h3>
+                    <span class="products__stock">
+                        show all products
+                    </span>
+                </li>
+                
+                <li class="products_item products_line active-product" data-filter=".hoodies">
+                    <h3 class="products__title">
+                        Hoodies
+                    </h3>
+                    <span class="products__stock">
+                        3 products
+                    </span>
+                </li>
+                
+                <li class="products_item products_line" data-filter=".shirts">
+                    <h3 class="products__title">
+                        Shirts
+                    </h3>
+                    <span class="products__stock">
+                        4 products
+                    </span>
+                </li>
+                
+                <li class="products__item" data-filter=".sweatshirts">
+          <h3 class="products__title">
+              Sweatshirts
+            </h3>
+            <span class="products__stock">
+                4 products
+            </span>
+        </li>
+    </ul>
+    
+    <div class="products_content grid" id="products_content"></div>
+</div>
+-->
+
+
+
+
+
+
+<!-- 
+<section class="cards">
+    
+    
+    <div class="img1">
+        <img src="./assets/images/featured1.png" alt="" style="width:80%">
+    </div>
+    
+    <div >
+        <button class="agregar">+</button>
+    </div>
+</div>
+
+<div class="caja">
+    <div class="card-body">
+        <h3 class="card-text">Hoodies</h3> 
+        <h4 class="card-title">$14.00</h4>
+        <small class="stock"> Stock: </small>
+
+</div>
+
+
+    <div class="img2">
+        <img src="./assets/images/featured2.png" alt="" style="width:80%">
+    </div>
+    
+    <div class="img3">
+        <img src="./assets/images/featured3.png" alt="" style="width:80%">
+    </div>
+    
+</section>
+
+-->
+
+<section id="card-section">
+
+    <div class="card" >
+        <div class="card-img card1" ></div>
+        <div class="card-body">
+            <h3 class="card-title">$14.00</h3>
+            <small>stock:</small>
+            <h4 class="card-text">Hoodies</h4>
+            <div class="agregar">
+                <a href="#" class="btn btn-primary">+</a>
+            </div>
+        </div>
+      </div>
+
+      <div class="card" >
+        <div class="card-img  card2"></div>
+        <div class="card-body">
+            <h3 class="card-title">$24.00</h3>
+            <small>stock:</small>
+            <h4 class="card-text">Shirts</h4>
+            <div class="agregar">
+                <a href="#" class="btn btn-primary">+</a>
+            </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="card" >
+        <div class="card-img  card3"></div>
+        <div class="card-body">
+        <h3 class="card-title">$24.00</h3>
+        <small>stock:</small>
+        <h4 class="card-text">Sweatshirt</h4>
+        </div>
+        <div class="agregar">
+            <a href="#" class="btn btn-primary">+</a>
+        </div>
+      </div>
+</section>
+
+<footer>
+        
+    <div>
+        <h2>Our information</h2>
+        <ul>
+            <li>Toluca-Mexico</li>
+        </ul>
+    </div>
+
+    <div>
+        <h2>About us</h2>
+        <ul>
+            <li>
+                Support Center
+            </li>
+            <li>
+                Costumer Support
+            </li>
+            <li>
+                About Us
+            </li>
+            <li>
+                Copy Right
+            </li>
+        </ul>
+    </div>
+
+    <div>
+        <h2>Product</h2>
+        <ul>
+            <li>
+                Hoodies
+            </li>
+            <li>
+                Shirts
+            </li>
+            <li>
+                Sweatshirts
+            </li>
+        </ul>
+    </div>
+
+    <div>
+        <h2>Social</h2>
+        <div id="Social">
+            <img src="" alt="Facebook">
+            <img src="" alt="Twitter">
+            <img src="" alt="Instagram">
+        </div>
+    </div>
+</footer>
+
+
+
+<div class="shopping-cart-overlay">
+    <div class="selected-products-list">
+        <i class="bx bx-x bx-md cart-close" id="cart-close"></i>
+        <div class="cart-list">
+            <div class="empty-state">
+                <img src="./assets/images/empty-cart.png" alt="">
+                <h5>Aun no has agregado ningun producto a tu carrito</h5>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="./main.js"></script>
+</body>
+</html>
