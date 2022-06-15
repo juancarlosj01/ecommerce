@@ -117,10 +117,10 @@ function agregarProducto( producto ){
     }
 
     console.log(cart)
-    //mostrarProductosCart()
+    mostrarProductosCart()
 }
 
-/*
+
 function mostrarProductosCart(){
 
     let fragmentoHTML = ``
@@ -150,4 +150,4 @@ function mostrarProductosCart(){
     `
     cartContainer.innerHTML = fragmentoHTML
     cartCount.textContent = cantidadTotal
-}*/
+}
