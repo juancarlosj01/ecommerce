@@ -11,10 +11,64 @@ font-family: 'Roboto', sans-serif;
 }
 
 
+.containerNav{
+  display: flex;
+}
+.flotante1{
+  display: flex;
+justify-content: start;
+align-items: center;
+  width: 50%;
+  padding: .5rem;
+}
+
+.nav-btns{
+  display: flex;
+  justify-content: flex-end;
+  padding: .5rem;
+  margin: .5rem;
+  width: 48%;
+  gap: 10px;
+}
+
+
+.logo-academlo>img{
+  height: 25px;
+  width: 25px;
+}
+
+.nombre-ecommerce > h1{
+  font-size: 15px;
+}
 
 @media screen and (min-width: 768px) { 
   
+
+
+  .containerNav{
+    display: flex;
+}
+.flotante1{
+    display: flex;
+  justify-content: start;
+  align-items: center;
+    width: 50%;
+    padding: .5rem;
+}
+.logo-academlo>img{
+    height: 25px;
+    width: 25px;
+}
+
+.nombre-ecommerce > h1{
+    font-size: 15px;
+}
   
+
+
+
+
+
   input#menu-hamburguesa{
     visibility:hidden;
   }
@@ -39,6 +93,9 @@ input#menu-hamburguesa:checked ~ ul{
 }
 
 }
+
+
+
 
 
 /*---------Vista del carrito-----------*/
