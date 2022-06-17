@@ -47,7 +47,16 @@ let cart = []
 
 
 document.addEventListener("DOMContentLoaded", () =>{
+     
+    if(window.localStorage.getItem("cart")){
+        cart=JSON.parse(window.localStorage.getItem("cart"))
+    }else{
+        window.localStorage.setItem("cart", JSON.stringify(cart))
+    }
+    
     mostrarProductos()
+    mostrarProductosCart()
+
 })
 
 cartIcon.addEventListener( "click", () =>{
@@ -118,6 +127,8 @@ function agregarProducto( producto ){
 
     console.log(cart)
     mostrarProductosCart()
+
+    window.localStorage.setItem("cart", JSON.stringify(cart))
 }
 
 
@@ -150,4 +161,7 @@ function mostrarProductosCart(){
     `
     cartContainer.innerHTML = fragmentoHTML
     cartCount.textContent = cantidadTotal
+
+
+
 }
